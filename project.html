@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Complete Responsive Food / Restaurant Website Design Tutorial</title>
+   <title> Restaurant Website</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -57,7 +57,7 @@
             <div class="content">
                <span>outstanding food</span>
                <h3>morning moment</h3>
-               <a href="#" class="btn">Our Menu</a>
+               <a href="#menu" class="btn">Our Menu</a>
             </div>
          </div>
 
@@ -65,7 +65,7 @@
             <div class="content">
                <span>outstanding food</span>
                <h3>authentic kitchen</h3>
-               <a href="#" class="btn">Our Menu</a>
+               <a href="#menu" class="btn">Our Menu</a>
             </div>
          </div>
 
@@ -388,21 +388,20 @@
             <img src="order-img.jpg" alt="">
         </div>
 
-        <form action="">
+        <form onsubmit="return false">
+            <div class="inputBox">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="email" required>
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="Phone number" required>
+                <input type="number" placeholder="Number of guest" required>
+            </div>
 
             <div class="inputBox">
-                <input type="text" placeholder="Name" >
-                <input type="email" placeholder="email">
+                <input type="date" placeholder="Date" required>
             </div>
-            <div class="inputBox">
-                <input type="number" placeholder="Phone number" >
-                <input type="number" placeholder="Number of guest" >
-            </div>
-
-            <div class="inputBox">
-                <input type="date" placeholder="Date" >
-            </div>
-            <input type="submit" value="Book Now" class="btn" onclick="alert('Booked Successfully')" style="background-color: black;">
+            <input type="submit" value="Book Now" class="btn" style="background-color: black;">
 
         </form>
 

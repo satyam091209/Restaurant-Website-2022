@@ -44,3 +44,7 @@ var swiper = new Swiper(".menu-slider", {
    },
 });
 
+let form = document.querySelector("form");
+form.addEventListener("submit",function(e) {
+   alert("Booked Successfully");
+})
